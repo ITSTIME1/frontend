@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 할일</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28feeb48f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>오늘은 무조건 이건 해!</header>
+        <div class="inputField">
+            <input type="text" placeholder="이걸 적는 순간 무조건 한다..">
+            <button><i class="fas fa-plus"></i></i></button>
+        </div>
+
+        <ul class="todolist">
+            <!-- Data comes from localstorage -->
+        </ul>
+        
+        <div class="footer">
+            <span>너는 <span class="pendingNumber"></span>(개)의 과업을 가지고 있어</span>
+            <button>지우기</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+<!-- Build by ITSTIME toyproject -->
