@@ -1,4 +1,4 @@
-# Frontend
+# Frontend first project Todolist
 The repository is open for anyone interested in coding, including web design, developers, programmers and studing student!
 # What about technology?
     HTML - This language is the most basic language. <div>..<i>..<span>..<link> etc..
