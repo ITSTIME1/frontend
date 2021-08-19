@@ -9,16 +9,15 @@ The repository is open for anyone interested in coding, including web design, de
     
 # Installation
     You can download in my frontend file
-    <img src="https://user-images.githubusercontent.com/88642524/129656864-f0c3129e-79a5-4e9f-96e0-9e2029817612.png" "width:500">
+    
     Next you have to click Download Zip
-    <img src="https://user-images.githubusercontent.com/88642524/129656916-8aed25dc-30d5-408b-b539-96579641b39e.png" "width:500">
+    
 # Installation 2
     Or by this command git clone you can to download code!
-    <img src="https://user-images.githubusercontent.com/88642524/129657744-2fb5f3bf-13cc-427a-b07f-a36f3f476858.png" width:500">
+    
     Next you have to write down git clone [url]
-    <img src="https://user-images.githubusercontent.com/88642524/129657781-dff8b0e8-7f46-499d-a1fc-6c8bf7542085.png" width:500">
+   
     Completed!
-    <img src="https://user-images.githubusercontent.com/88642524/129657903-4e13f1cc-fcf5-4910-8df2-4872ac7706bd.png" width:500">
     
 
     
