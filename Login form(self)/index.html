@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form | self coding</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/509b43f874.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Login Page</header>
+        <form action="#">
+            <div class="field email">
+                <div class="input-area">
+                    <input tpye="text" placeholder="Email Address">
+                    <i class="icon fas fa-envelope"></i>
+                    <!-- message icon -->
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                    <!-- error icon -->
+                </div>
+            <div class="error error-txt">Warning! Can't be blank email</div>    
+            </div>
+
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Password">
+                    <i class="icon fas fa-lock"></i>
+                    <!-- message icon -->
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                    <!-- error icon -->       
+                </div>
+            <div class="error error-txt">Warning! can't be blank password</div>            
+            </div>
+
+            <div class="pass-link"><a href="#">Forgot your Password?</a></div>
+            <input type="submit" value="Login">
+        </form>
+        <div class="signup-link">Not yet member? <a href="#">Signup</a></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
