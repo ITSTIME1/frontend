@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* gradient color body change value */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(255, 128, 187) 0%, pink 100%);
+}
+/* white box value change css */
+.wrapper {
+  width: 380px;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  padding: 40px 30px 50px 30px;
+}
+/* "login Form" */
+.wrapper header {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(255, 136, 156);
+}
+
+.wrapper form {
+  margin: 40px 0;
+}
+/* form data css */
+/* email, password inputbox value change css */
+form input {
+  height: 50px;
+  width: 100%;
+  padding: 0 45px;
+  outline: none;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  border-bottom-width: 2px;
+}
+form .field.error input {
+  border-color: #dd3646;
+}
+form .field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+form .field.shake {
+  animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  20%,
+  80% {
+    margin-left: -12px;
+  }
+  40%,
+  60% {
+    margin-left: 12px;
+  }
+}
+/* placeholder box email Address font size change css */
+form input::placeholder {
+  color: #bfbfbf;
+  font-size: 17px;
+}
+form .field i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  pointer-events: none;
+}
+
+form .field .input-area {
+  position: relative;
+}
+
+form .field .icon {
+  left: 15px;
+  color: #bfbfbf;
+}
+form .field .error-icon {
+  right: 15px;
+  color: #cf3a49;
+}
+form .field .error-txt {
+  margin-top: 5px;
+  color: #cf3a49;
+  text-align: left;
+}
+/* display -> none is hide sentence */
+form .field .error {
+  display: none;
+}
+form .field.error .error {
+  display: block;
+}
+form .pass-link {
+  text-align: left;
+  margin-top: -10px;
+}
+.wrapper a {
+  color: #5372f0;
+  font-size: 17px;
+  /* text-decoration -> underline delete; */
+  text-decoration: none;
+}
+/* when you move mouse cursor  */
+.wrapper a:hover {
+  text-decoration: underline;
+}
+/* login box color change */
+form input[type="submit"] {
+  margin-top: 30px;
+  border: none;
+  background: rgb(240, 163, 186);
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+form input[type="submit"]:hover {
+  background: rgb(243, 127, 162);
+}
