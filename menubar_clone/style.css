@@ -52,6 +52,7 @@ label.logo{
     display: none;
 }
 
+
 /* turn down the screen */
 @media (max-width: 952px) {
     label.logo{
@@ -61,4 +62,39 @@ label.logo{
     nav ul li a{
         font-size: 16px;
     }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3250;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size:  20px;
+    }
+    a.active, a:hover{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+section{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
 }
